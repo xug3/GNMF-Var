@@ -1,11 +1,7 @@
 library(R.matlab)
-library(ComplexHeatmap)
-library(magrittr)
-library(circlize)
 library(openxlsx)
 library(dplyr)
 library(tidyr)
-library(lsa)
 library(FAST,lib.loc="/gpfs/gibbs/project/wang_zuoheng/gx28/R_lib")
 
 

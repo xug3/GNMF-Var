@@ -1,10 +1,6 @@
 library(R.matlab)
-library(ComplexHeatmap)
-library(magrittr)
-library(circlize)
 library(FAST,lib.loc="/gpfs/gibbs/project/wang_zuoheng/gx28/R_lib")
 library(openxlsx)
-library(lsa)
 
 
 results=read.xlsx("Freyja_cov_24_25_final_v3.xlsx",detectDates = TRUE )
