@@ -127,11 +127,6 @@ for (q in seq_len(nrow(quarter_info))) {
     )
   })
   
-    res <- dmain(
-      subweek_countmatrixt,
-      sub_adjacent_matrix,
-      config
-    )
   saveRDS(res,file.path(out_dir,paste0(qname,".rds")))
   # Save runtime information
   runtime_i <- data.frame(
@@ -160,9 +155,6 @@ for (q in seq_len(nrow(quarter_info))) {
   )
   
   
-  # Clear memory
-  rm(res)
-  gc()
 }
 
 # -----------------------------
