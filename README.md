@@ -19,6 +19,10 @@ GNMF-Var takes as input a sample-by-mutation frequency matrix and a spatiotempor
 
 Each component can be annotated to SARS-CoV-2 lineages by comparing its mutation profile with curated lineage barcodes.
 
+## Running time
+
+The fitting process will ranged from 1 min to 30 mins.
+
 ## Requirements
 
 The scripts were developed in R and require the following packages:
