@@ -1,1 +1,7 @@
-
+R code for the simulation study.
+Instruction:
+1.Change the working directory in all files.
+2. Run convert_usher_barcode which need  dataset: data/Usher_barcode_variant_of_interest_10182023.csv
+3. Run make_truth_proportions.R for preparing ground truth.
+4. Run Simu.R for 1,000 replicates.
+5. Run simu_plots.R for figures.
